@@ -1,0 +1,70 @@
+.wrapper-comment-item {
+  display: flex;
+}
+
+.comment-item-left {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.comment-item-left img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.comment-item-content {
+  min-width: 120px;
+  background-color: #f2f3f5;
+  border-radius: 18px;
+  color: #1c1e21;
+  display: inline-block;
+  max-width: 586px;
+  position: relative;
+  padding: 9px 12px;
+}
+
+.comment-item-name {
+  font-size: 12px;
+  color: black;
+  margin-bottom: 8px;
+}
+
+.comment-item-action {
+  margin: 12px 0;
+  font-size: 12px;
+  color: #ea4c89;
+}
+
+.comment-item-create-time {
+  color: #999999;
+}
+
+.comment-item-action span {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.comment-item-create {
+  position: relative;
+}
+
+.icon-emoji-facebook {
+  position: absolute;
+  top: -40px;
+  left: 0px;
+  background-color: #f1f1f1;
+  border: 1px solid #dadada;
+  border-radius: 24px;
+  padding: 4px 8px;
+}
+
+.comment-item-status:hover {
+  text-decoration: underline;
+}
+
+.comment-item-reply:hover {
+  text-decoration: underline;
+}

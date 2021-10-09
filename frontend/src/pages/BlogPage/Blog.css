@@ -1,0 +1,18 @@
+.wrapper-blog {
+  background-color: #f2f3f5;
+  padding: 20px 0;
+}
+
+.wrap-field-input {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.icon-search {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #898989;
+  cursor: pointer;
+}

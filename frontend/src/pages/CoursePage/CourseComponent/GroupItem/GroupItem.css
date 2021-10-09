@@ -1,0 +1,29 @@
+.group-course-item {
+  /* position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between; */
+  padding: 12px;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 1px solid #dedfe0;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.group-course-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 4px;
+  color: #29303b;
+}
+
+.group-course-sub {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 0;
+  color: #6e6d7a;
+}
