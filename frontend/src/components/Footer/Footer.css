@@ -1,0 +1,48 @@
+.wrapper-footer {
+  padding: 20px 0;
+}
+
+.title-link-footer {
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.589);
+  margin-bottom: 1.25rem;
+  margin-top: 2.5rem;
+}
+
+.column-footer p {
+  margin-bottom: 12px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.icon-footer {
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  margin: 0 5px 5px 0;
+  overflow: hidden;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+}
+
+.icon-footer-facebook {
+  background-color: #1877f2;
+}
+
+.icon-footer-facebook .fa-facebook {
+  color: white;
+  margin: 2px;
+  font-size: 26px;
+}
+
+.icon-footer-youtube {
+  background-color: #dc4e42;
+}
+
+.icon-footer-youtube .fa-youtube-play {
+  color: white;
+  margin: 2px;
+  font-size: 26px;
+}
