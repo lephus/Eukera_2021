@@ -1,0 +1,157 @@
+[{
+  "_id": {
+    "$oid": "615d0bbac8423e49c5dd6c67"
+  },
+  "idVideo": "000001",
+  "idCourse": 123,
+  "title": "[The Algorithms - MATH] Sum of Digits",
+  "url": "https://youtu.be/sshNHOznvDQ",
+  "description": "[The Algorithms - MATH] Sum of Digits, Find the sum of digits of a number.",
+  "createAt": "2021/10/9 12:24:34",
+  "updateAt": "2021/10/9 12:24:34",
+  "idChapter": 1
+},{
+  "_id": {
+    "$oid": "615d0bbac8423e49c5dd6c68"
+  },
+  "idVideo": "000002",
+  "idCourse": 123,
+  "title": "[The Algorithms - MATH] Triplet Sum",
+  "url": "https://youtu.be/F6NGx-8Jrz8",
+  "description": "[The Algorithms - MATH] Triplet Sum Given an array of integers and another integer target, we are required to find a triplet from the array such that its sum is equal to the target",
+  "createAt": "2021/10/9 12:24:34",
+  "updateAt": "2021/10/9 12:24:34",
+  "idChapter": 2
+},{
+  "_id": {
+    "$oid": "615d0bbac8423e49c5dd6c69"
+  },
+  "idVideo": "000003",
+  "idCourse": 123,
+  "title": "[The Algorithms - MATH] Prime Number",
+  "url": "https://youtu.be/jB7a3mE61E0",
+  "description": "[The Algorithms - MATH] Prime Number",
+  "createAt": "2021/10/9 12:24:34",
+  "updateAt": "2021/10/9 12:24:34",
+  "idChapter": 1
+},{
+  "_id": {
+    "$oid": "615d0bbac8423e49c5dd6c6a"
+  },
+  "idVideo": "000004",
+  "idCourse": 123,
+  "title": "[The Algorithms - MATH] Sieve of Eratosthenes",
+  "url": "https://youtu.be/IJRzgUg-3D4",
+  "description": "[The Algorithms - MATH] Sieve of Eratosthenes",
+  "createAt": "2021/10/9 12:24:34",
+  "updateAt": "2021/10/9 12:24:34",
+  "idChapter": 1
+},{
+  "_id": {
+    "$oid": "615d0bbac8423e49c5dd6c6b"
+  },
+  "idVideo": "000005",
+  "idCourse": 123,
+  "title": "[The Algorithms - MATH] Prime Factor",
+  "url": "https://youtu.be/y0CBFG0Sdn4",
+  "description": "[The Algorithms - MATH] Prime Factor",
+  "createAt": "2021/10/9 12:24:34",
+  "updateAt": "2021/10/9 12:24:34",
+  "idChapter": 2
+},{
+  "_id": {
+    "$oid": "615d0bbac8423e49c5dd6c6c"
+  },
+  "idVideo": "000006",
+  "idCourse": 123,
+  "title": "[The Algorithms - MATH] Max Sum Sliding Window",
+  "url": "https://youtu.be/XypfplXsFw0",
+  "description": "[The Algorithms - MATH] Max Sum Sliding Window Given an array of integer elements and an integer 'k', we are required to find the maximum sum of 'k' consecutive elements in the array.",
+  "createAt": "2021/10/9 12:24:34",
+  "updateAt": "2021/10/9 12:24:34",
+  "idChapter": 1
+},{
+  "_id": {
+    "$oid": "615d0bbac8423e49c5dd6c6d"
+  },
+  "idVideo": "000007",
+  "idCourse": 123,
+  "title": "[The Algorithms - MATH] Perfect Number",
+  "url": "https://youtu.be/XypfplXsFw0",
+  "description": "[The Algorithms - MATH] Perfect Number",
+  "createAt": "2021/10/9 12:24:34",
+  "updateAt": "2021/10/9 12:24:34",
+  "idChapter": 2
+},{
+  "_id": {
+    "$oid": "615d0cd4c8423e49c5dd6c72"
+  },
+  "idVideo": "000010",
+  "idCourse": 5462734,
+  "title": "[TDLT] Nhập môn tư duy thuật toán (phần 1)",
+  "url": "https://youtu.be/1Pdd37syf4E",
+  "description": "Nhập môn tư duy lập trình và thuật toán Tư duy lập trình Tư duy biện luận Tư duy thuật toán Phân tích và thiết kế các bài toán lập trình giải quyết các bài toán lập trình bài tập tư duy lập trình giải thích về tư lập trình cho người mới",
+  "createAt": "2021/10/9 12:24:34",
+  "updateAt": "2021/10/9 12:24:34",
+  "idChapter": 1
+},{
+  "_id": {
+    "$oid": "615d0cd4c8423e49c5dd6c73"
+  },
+  "idVideo": "000011",
+  "idCourse": 5462734,
+  "title": "[TDLT] Nhập môn tư duy thuật toán (phần 2)",
+  "url": "https://youtu.be/JOFd_xsGiG8",
+  "description": "Nhập môn tư duy lập trình và thuật toán Tư duy lập trình Tư duy biện luận Tư duy thuật toán Phân tích và thiết kế các bài toán lập trình giải quyết các bài toán lập trình bài tập tư duy lập trình giải thích về tư lập trình cho người mới",
+  "createAt": "2021/10/9 12:24:34",
+  "updateAt": "2021/10/9 12:24:34",
+  "idChapter": 2
+},{
+  "_id": {
+    "$oid": "615d0cd4c8423e49c5dd6c74"
+  },
+  "idVideo": "000012",
+  "idCourse": 5462734,
+  "title": "[TDLT] Nhập môn tư duy thuật toán (phần 3)",
+  "url": "https://youtu.be/id3gus0sIv0",
+  "description": "Nhập môn tư duy lập trình và thuật toán Tư duy lập trình Tư duy biện luận Tư duy thuật toán Phân tích và thiết kế các bài toán lập trình giải quyết các bài toán lập trình bài tập tư duy lập trình giải thích về tư lập trình cho người mới",
+  "createAt": "2021/10/9 12:24:34",
+  "updateAt": "2021/10/9 12:24:34",
+  "idChapter": 2
+},{
+  "_id": {
+    "$oid": "615d0eefc8423e49c5dd6c7c"
+  },
+  "idVideo": "000020",
+  "idCourse": 6345,
+  "title": "[AI] Tổng quan Trí tuệ nhân tạo AI",
+  "url": "https://youtu.be/9t1IsxTeyHQ",
+  "description": "Tổng quan về trí tuệ nhân tạo | Học trí tuệ nhân tạo AI Trong video này, mình có tham khảo tài liệu của Thầy Phạm Minh Tuấn - Trường Đại Học Bách Khoa Đà Nẵng",
+  "createAt": "2021/10/9 12:24:34",
+  "updateAt": "2021/10/9 12:24:34",
+  "idChapter": 2
+},{
+  "_id": {
+    "$oid": "615d0eefc8423e49c5dd6c7d"
+  },
+  "idVideo": "000021",
+  "idCourse": 6345,
+  "title": "[AI] Python cơ bản cho AI (phần 1)",
+  "url": "https://youtu.be/MpppDoAWDdA",
+  "description": "Tổng quan về trí tuệ nhân tạo | Học trí tuệ nhân tạo AI Giới thiệu python cơ bản string trong python",
+  "createAt": "2021/10/9 12:24:34",
+  "updateAt": "2021/10/9 12:24:34",
+  "idChapter": 1
+},{
+  "_id": {
+    "$oid": "61602804f006febe9f7f0679"
+  },
+  "idVideo": "000001",
+  "idChapter": 1,
+  "idCourse": 123,
+  "title": "[The Algorithms - MATH] Sum of Digits",
+  "url": "https://youtu.be/sshNHOznvDQ",
+  "description": "[The Algorithms - MATH] Sum of Digits, Find the sum of digits of a number.",
+  "createAt": "2021/10/9 12:24:34",
+  "updateAt": "2021/10/9 12:24:34"
+}]
