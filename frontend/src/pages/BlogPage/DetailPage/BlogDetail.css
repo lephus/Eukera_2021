@@ -1,0 +1,123 @@
+.wrapper-blog-detail {
+  background-color: #f2f3f5;
+  padding: 20px 0;
+}
+
+.content-blog-detail {
+  background-color: white;
+  border-radius: 4px;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.blog-detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.blog-detail-author-info {
+  display: flex;
+  align-items: center;
+}
+
+.blog-detail-author-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 16px;
+}
+
+.blog-detail-author-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.blog-detail-author-name {
+  display: flex;
+  color: #898989;
+  font-size: 14px;
+}
+
+.author-time {
+  margin-left: 12px;
+}
+
+.blog-detail-action {
+  color: #898989;
+  font-size: 14px;
+}
+
+.blog-detail-viewer-number {
+  margin-left: 6px;
+}
+
+.blog-detail-action .fa {
+  margin-right: 6px;
+}
+
+.blog-detail-main {
+  padding: 18px 20px;
+}
+
+.blog-detail-title {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.blog-detail-action-toolbar {
+  /* display: flex; */
+  position: fixed;
+  top: 100px;
+  right: 40px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-detail-btn-icon {
+  position: relative;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 0px 1px #e7e7e9 inset;
+  box-shadow: 0px 0px 0px 1px #e7e7e9 inset;
+  color: #0d0c22;
+  border: 1px solid #bbbbbb;
+  width: 54px;
+  height: 54px;
+  margin-bottom: 12px;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.accessibility-text {
+  display: none;
+  position: absolute;
+  left: -100px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  padding: 6px;
+  width: 80px;
+  border-radius: 4px;
+}
+
+.accessibility-text::before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  background-color: #ea4c89;
+  right: -7px;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.blog-detail-btn-icon:hover .accessibility-text {
+  display: block;
+}

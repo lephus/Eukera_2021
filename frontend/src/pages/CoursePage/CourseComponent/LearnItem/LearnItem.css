@@ -1,0 +1,19 @@
+.group-course-learn-video {
+  background-color: #fdfdfd;
+  padding: 8px 20px;
+  font-size: 14px;
+}
+
+.active-learn-video {
+  background-color: rgba(234, 76, 137, 0.329);
+}
+
+.group-course-learn-title {
+  margin-bottom: 6px;
+}
+
+.group-course-time-video {
+  margin-bottom: 0;
+  color: #6e6d7a;
+  font-size: 14px;
+}
