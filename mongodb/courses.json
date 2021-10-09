@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "615d08f3c8423e49c5dd6c60"
+  },
+  "idCourse": 123,
+  "idUser": "1",
+  "title": "The Algorithms",
+  "viewer": "123112",
+  "idCategory": "1",
+  "keyword": "Algorithms, Thuật toán, Lập trìnn thi đấu, Giaỉ thuật, IT, ICPC-ACM",
+  "tag": "Algorithms, Thuật toán, Lập trìnn thi đấu, Giaỉ thuật, IT, ICPc-ACM",
+  "description": "Một số các thuật toán phổ biến",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "615d097dc8423e49c5dd6c62"
+  },
+  "idCourse": 5462734,
+  "idUser": "1",
+  "title": "Nhập môn tư duy lập trình và thuật toán",
+  "viewer": "95689",
+  "idCategory": "1",
+  "keyword": "Algorithms, Thuật toán, Lập trìnn thi đấu, Giaỉ thuật, IT, ICPC-ACM",
+  "tag": "Algorithms, Thuật toán, Lập trìnn thi đấu, Giaỉ thuật, IT, ICPc-ACM",
+  "description": "Nhập môn tư duy lập trình",
+  "createAt": {
+    "$date": "2021-10-09T05:24:34Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-19T05:24:34Z"
+  }
+},{
+  "_id": {
+    "$oid": "615d0d9cc8423e49c5dd6c78"
+  },
+  "idCourse": 6345,
+  "idUser": "1",
+  "title": "Học trí tuệ nhân tạo AI",
+  "viewer": "32455",
+  "idCategory": "2",
+  "keyword": "Algorithms, Thuật toán, Lập trìnn thi đấu, Giaỉ thuật, IT, ICPC-ACM",
+  "tag": "Algorithms, Thuật toán, Lập trìnn thi đấu, Giaỉ thuật, IT, ICPc-ACM",
+  "description": "Tổng quan về trí tuệ nhân tạo | Học trí tuệ nhân tạo AI Trong video này, mình có tham khảo tài liệu của Thầy Phạm Minh Tuấn - Trường Đại Học Bách Khoa Đà Nẵng Lý thuyết trí tuệ nhân tạo, bài giảng trí tuệ nhân tạo, học trí tuệ nhân tạo cơ bản,  giải bài tập môn trí tuệ nhân tạo, code realtime, colab, python",
+  "createAt": {
+    "$date": "2021-10-09T05:24:34Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-29T05:24:34Z"
+  }
+}]
