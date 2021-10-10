@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "616290c4f052e0903d1e9bc6"
+  },
+  "idChapter": "1",
+  "idCourse": "20211010110642",
+  "title": "Chương 1: Giới thiệu",
+  "description": "",
+  "createAt": {
+    "$date": "2021-09-10T14:12:23.049Z"
+  },
+  "updateAt": {
+    "$date": "2021-09-10T14:12:23.049Z"
+  },
+  "index": 1
+},{
+  "_id": {
+    "$oid": "61629179f052e0903d1e9be2"
+  },
+  "idChapter": "2",
+  "idCourse": "20211010110642",
+  "title": "Chương 2: Kiến thức cốt lõi",
+  "description": "",
+  "createAt": {
+    "$date": "2021-09-10T14:12:23.049Z"
+  },
+  "updateAt": {
+    "$date": "2021-09-10T14:12:23.049Z"
+  },
+  "index": 1
+},{
+  "_id": {
+    "$oid": "6162921cf052e0903d1e9bec"
+  },
+  "idChapter": "3",
+  "idCourse": "20211010110642",
+  "title": "Chương 2:Kiến thức nâng cao",
+  "description": "",
+  "createAt": {
+    "$date": "2021-09-10T14:12:23.049Z"
+  },
+  "updateAt": {
+    "$date": "2021-09-10T14:12:23.049Z"
+  },
+  "index": 1
+}]
