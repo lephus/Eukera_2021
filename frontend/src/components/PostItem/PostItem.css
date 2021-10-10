@@ -47,6 +47,10 @@
   color: #333;
 }
 
+.rating .fa {
+  margin-right: 4px;
+}
+
 .item-title:hover {
   text-decoration: underline;
 }

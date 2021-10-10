@@ -1,45 +1,44 @@
 
-import { openNotificationWithIcon } from "../../../constants/notify"
+// import { openNotificationWithIcon } from "../../../constants/notify"
 
 const initialState = {
-	listManagerFooter: {
+	listPost: {
 		data: [],
 		load: false,
 		error: ''
 	},
-
 }
 
 export default function apiReducer(state = initialState, action) {
 	switch (action.type) {
-		case 'UPDATE_MANAGE_INTRO_REQUEST': {
+		case 'GET_LIST_POST_REQUEST': {
 			return {
 				...state,
-				manageIntro: {
-					...state.manageIntro,
+				listPost: {
+					...state.listPost,
 					load: true
 				}
 			}
 		}
 
-		case 'UPDATE_MANAGE_INTRO_SUCCESS': {
+		case 'GET_LIST_POST_SUCCESS': {
 			const { data } = action.payload;
-			openNotificationWithIcon('success', "Cập nhật thành công", "topRight")
 			return {
 				...state,
-				manageIntro: {
-					...state.manageIntro,
+				listPost: {
+					...state.listPost,
 					data: data,
 					load: false,
 				},
 			}
 		}
-		case 'UPDATE_MANAGE_INTRO_REQUEST_FAIL': {
+
+		case 'GET_LIST_POST_FAIL': {
 			const { error } = action.payload;
 			return {
 				...state,
-				manageIntro: {
-					...state.manageIntro,
+				listPost: {
+					...state.listPost,
 					load: false,
 					error: error,
 				},

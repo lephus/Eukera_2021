@@ -1,22 +1,35 @@
+import axios from "axios"
 import { put, takeEvery } from 'redux-saga/effects';
-import { handleErrorAction } from "../../actions"
-import { URL, URL_API } from '../../../constants/index.js'
-import httpRequest from "../../../services/httpRequest"
+// import { handleErrorAction } from "../../actions"
+import { URL, URL_API } from '../../constants/index.js'
+// import httpRequest from "../../../services/httpRequest"
 
-function* getSlideListSaga() {
+function* getListPostSaga() {
 	try {
-		const result = yield httpRequest.get(URL + URL_API.API_SLIDE) // url, params
-		yield put({
-			type: "GET_SLIDE_SUCCESS",
-			payload: {
-				data: result
-			},
+		const result = yield axios({
+			method: 'GET',
+			url: URL + URL_API.API_LIST_BLOG,
 		});
+		if (result.status === 200) {
+			yield put({
+				type: "GET_LIST_POST_SUCCESS",
+				payload: {
+					data: result.data
+				},
+			});
+		} else {
+			yield put({
+				type: "GET_LIST_POST_FAIL",
+				payload: {
+					error: "lỗi"
+				},
+			});
+		}
 	} catch (error) {
-		yield put(handleErrorAction(error))
+
 	}
 }
 
 export default function* apiSaga() {
-	yield takeEvery('GET_SLIDE_REQUEST', getSlideListSaga);
+	yield takeEvery('GET_LIST_POST_REQUEST', getListPostSaga);
 }
