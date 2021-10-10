@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "616268490de38733fdb78241"
+  },
+  "thumbnail": "https://home.vnreview.vn/image/18/75/98/1875981.jpg",
+  "title": "The Algorithms",
+  "viewer": "63644",
+  "keyword": "Algorithms, Thuật toán, Lập trình thi đấu, Giaỉ thuật, IT, ICPC-ACM",
+  "tag": "Algorithms, Thuật toán, Lập trìnn thi đấu, Giaỉ thuật, IT, ICPc-ACM",
+  "description": "Một số các thuật toán phổ biến",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "idAuthor": "1",
+  "idCourse": "20211010110642"
+},{
+  "_id": {
+    "$oid": "61626cd00de38733fdb7825a"
+  },
+  "thumbnail": "https://i.ytimg.com/vi/id3gus0sIv0/maxresdefault.jpg",
+  "title": "Nhập môn tư duy lập trình và thuật toán",
+  "viewer": "98999",
+  "keyword": "Algorithms, Thuật toán, Lập trình thi đấu, Giaỉ thuật, IT, Tư duy lập trình, tự học lập trình",
+  "tag": "Algorithms, Thuật toán, Lập trình thi đấu, Giaỉ thuật, IT, Tư duy lập trình, tự học lập trình",
+  "description": "Nhập môn tư duy lập trình, một số các thuật toán phổ biến",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "idAuthor": "1",
+  "idCourse": "20211010110656"
+},{
+  "_id": {
+    "$oid": "61626efb0de38733fdb78263"
+  },
+  "thumbnail": "https://develop.com.vn/wp-content/uploads/2021/04/oop.png",
+  "title": "Học Lập trình hướng đối tượng với C++",
+  "viewer": "21346",
+  "keyword": "Algorithms, Thuật toán, Lập trình thi đấu, Giaỉ thuật, IT, ICPC-ACM",
+  "tag": "Algorithms, Thuật toán, Lập trìnn thi đấu, Giaỉ thuật, IT, ICPc-ACM",
+  "description": "Học lập trình hướng đối tượng với C++ Hướng đối tượng với C++, Học lập trình hướng đối tượng,học lập trình c++ cơ bản tự học lập trình c++ hướng dẫn học lập trình c++",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "idAuthor": "1",
+  "idCourse": "20211010113901"
+}]

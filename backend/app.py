@@ -28,9 +28,9 @@ def postGetAll():
     return postView.PostView.getAllPosts()
 
 # DETAIL POST
-@app.route("/api/post/get-detail/<int:idPost>")
+@app.route("/api/post/get-detail/<idPost>")
 def postGetDetail(idPost):
-    return postView.PostView.getDetailPost(idPost)
+    return postView.PostView.getDetailPost(str(idPost))
 
 # COURSE
 @app.route("/api/course/get-all")
@@ -38,8 +38,8 @@ def courseGetAll():
     return courseView.CourseView.getAllCourse()
 
 # DETAIL COURSE
-@app.route("/api/course/get-detail/<int:idCourse>")
+@app.route("/api/course/get-detail/<idCourse>")
 def courseGetDetail(idCourse):
-    return courseView.CourseView.getDetailCourse(idCourse)
+    return courseView.CourseView.getDetailCourse(str(idCourse))
 
 # 

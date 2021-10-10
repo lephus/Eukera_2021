@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "616264f40de38733fdb78221"
+  },
+  "fullName": "Nguyen Hoang Nam",
+  "email": "HoangNam@gmail.com",
+  "password": "e10adc3949ba59abbe56e057f20f883e",
+  "gender": "nam",
+  "phone": "093554999",
+  "address": "172 Lê Thanh Nghi",
+  "idCity": 1,
+  "idDistrict": 1,
+  "idStreet": 1,
+  "birthday": "1987-12-12",
+  "image": "https://tiemchupanh.com/wp-content/uploads/2020/06/MG_2414.jpg",
+  "sologan": "Nothing is impossible",
+  "description": "Senior, Full stack deverloper",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "idAuthor": "1"
+},{
+  "_id": {
+    "$oid": "6162a48df052e0903d1e9c2a"
+  },
+  "fullName": "Trần Thị Vi",
+  "email": "thivi@gmail.com",
+  "password": "e10adc3949ba59abbe56e057f20f883e",
+  "gender": "nữ",
+  "phone": "093554999",
+  "address": "12B Lý Công",
+  "idCity": 1,
+  "idDistrict": 1,
+  "idStreet": 1,
+  "birthday": "1987-12-12",
+  "image": "https://lavenderstudio.com.vn/wp-content/uploads/2019/10/dich-vu-chup-anh-profile-02-1-1024x682.jpg",
+  "sologan": "Nothing is impossible",
+  "description": "Senior, Full stack deverloper",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "idAuthor": "2"
+},{
+  "_id": {
+    "$oid": "6162a4faf052e0903d1e9c2c"
+  },
+  "fullName": "Nguyễn khán ly",
+  "email": "khanhly@gmail.com",
+  "password": "e10adc3949ba59abbe56e057f20f883e",
+  "gender": "nữ",
+  "phone": "093554999",
+  "address": "123 Quế Thọ",
+  "idCity": 1,
+  "idDistrict": 1,
+  "idStreet": 1,
+  "birthday": "1987-12-12",
+  "image": "https://alphastudio.vn/wp-content/uploads/2021/01/DSC1389-1-1-318x400.jpg",
+  "sologan": "Nothing=",
+  "description": "Senior, Full stack deverloper",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "idAuthor": "3"
+}]

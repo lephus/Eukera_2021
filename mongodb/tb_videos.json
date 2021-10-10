@@ -1,0 +1,289 @@
+[{
+  "_id": {
+    "$oid": "61626bdb0de38733fdb7824c"
+  },
+  "idVideo": "1",
+  "idCourse": "20211010110642",
+  "title": "[The Algorithms - MATH] Sum of Digits",
+  "url": "https://youtu.be/sshNHOznvDQ",
+  "description": "[The Algorithms - MATH] Sum of Digits, Find the sum of digits of a number.",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "idChapter": 1
+},{
+  "_id": {
+    "$oid": "61626bdb0de38733fdb7824d"
+  },
+  "idVideo": "2",
+  "idCourse": "20211010110642",
+  "title": "[The Algorithms - MATH] Triplet Sum",
+  "url": "https://youtu.be/F6NGx-8Jrz8",
+  "description": "[The Algorithms - MATH] Triplet Sum Given an array of integersand another integer target, we are required to find a triplet from the array such that its sum is equal to the target.",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "idChapter": 1
+},{
+  "_id": {
+    "$oid": "61626bdb0de38733fdb7824e"
+  },
+  "idVideo": "3",
+  "idCourse": "20211010110642",
+  "title": "[The Algorithms - MATH] Prime Number",
+  "url": "https://youtu.be/jB7a3mE61E0",
+  "description": "[The Algorithms - MATH] Prime Number",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "idChapter": 2
+},{
+  "_id": {
+    "$oid": "61626bdb0de38733fdb7824f"
+  },
+  "idVideo": "4",
+  "idCourse": "20211010110642",
+  "title": "[The Algorithms - MATH] Sieve of Eratosthenes",
+  "url": "https://youtu.be/IJRzgUg-3D4",
+  "description": " Sieve of Eratosthenes",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "idChapter": 2
+},{
+  "_id": {
+    "$oid": "61626bdb0de38733fdb78250"
+  },
+  "idVideo": "5",
+  "idCourse": "20211010110642",
+  "title": "[The Algorithms - MATH] Prime Factor",
+  "url": "https://youtu.be/y0CBFG0Sdn4",
+  "description": "Prime Factor",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "idChapter": 2
+},{
+  "_id": {
+    "$oid": "61626bdb0de38733fdb78251"
+  },
+  "idVideo": "6",
+  "idCourse": "20211010110642",
+  "title": "[The Algorithms - MATH] Max Sum Sliding Window",
+  "url": "https://youtu.be/XypfplXsFw0",
+  "description": "[The Algorithms - MATH] Max Sum Sliding Window Given an array of integer elements and an integer 'k', we are required to find the maximum sum of 'k' consecutive elements in the array.",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "idChapter": 2
+},{
+  "_id": {
+    "$oid": "61626bdb0de38733fdb78252"
+  },
+  "idVideo": "7",
+  "idCourse": "20211010110642",
+  "title": "[The Algorithms - MATH] Perfect Number",
+  "url": "https://youtu.be/cqwJnG4BasY",
+  "description": "[The Algorithms - MATH] Perfect  Number Số hoàn hảo",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "idChapter": 2
+},{
+  "_id": {
+    "$oid": "61626bdb0de38733fdb78253"
+  },
+  "idVideo": "8",
+  "idCourse": "20211010110642",
+  "title": "[The Algorithms - MATH] Euclidean GCD",
+  "url": "https://youtu.be/S-u92dPVr08",
+  "description": "[The Algorithms - MATH] Euclidean GCD Ước chung lớn nhất",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "idChapter": 3
+},{
+  "_id": {
+    "$oid": "61626bdb0de38733fdb78254"
+  },
+  "idVideo": "9",
+  "idCourse": "20211010110642",
+  "title": "[The Algorithms - MATH] Cnk (Tính tổ hợp chập k của n)",
+  "url": "https://youtu.be/jRghqSPwzow",
+  "description": "[The Algorithms - MATH] Cnk (Tính tổ hợp chập k của n) Sử dụng tam giác pascal",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "idChapter": 3
+},{
+  "_id": {
+    "$oid": "61626bdb0de38733fdb78255"
+  },
+  "idVideo": "10",
+  "idCourse": "20211010110642",
+  "title": "[The Algorithms - MATH] Power Mod (Thuật toán nhanh X^Y % P)",
+  "url": "https://youtu.be/H6QkvSCF_AQ",
+  "description": "[The Algorithms - MATH] Power Mod (Thuật toán nhanh X^Y %P)",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "idChapter": 3
+},{
+  "_id": {
+    "$oid": "61626bdb0de38733fdb78256"
+  },
+  "idVideo": "11",
+  "idCourse": "20211010113333",
+  "title": "[The Algorithms - MATH] Tính tổng liên tiếp các số từ a đến b(thuật toán nhanh)",
+  "url": "https://youtu.be/GpJJqjzCAAU",
+  "description": "[The Algorithms - MATH] Tính tổng liên tiếp các số từ a đến b (thuật toán nhanh)",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "idChapter": 1
+},{
+  "_id": {
+    "$oid": "61626de90de38733fdb7825d"
+  },
+  "idVideo": "12",
+  "idCourse": "20211010113333",
+  "title": "[TDLT] Nhập môn tư duy thuật toán (phần 1)",
+  "url": "https://youtu.be/1Pdd37syf4E",
+  "description": "Nhập môn tư duy lập trình và thuật toán, Tư duy lập trình, Tư, duy biện luận, Tư duy thuật toán, Phân tích và thiết kế các bài toán lập trình, giải quyết các bài toán lập trình, bài tập tư duy lập trình, giải thích về tư lập trình cho người mới",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "idChapter": 1
+},{
+  "_id": {
+    "$oid": "61626de90de38733fdb7825e"
+  },
+  "idVideo": "13",
+  "idCourse": "20211010113333",
+  "title": "[TDLT] Nhập môn tư duy thuật toán (phần 2)",
+  "url": "https://youtu.be/1Pdd37syf4E",
+  "description": "Nhập môn tư duy lập trình và thuật toán, Tư duy lập trình, Tư, duy biện luận, Tư duy thuật toán, Phân tích và thiết kế các bài toán lập trình, giải quyết các bài toán lập trình, bài tập tư duy lập trình, giải thích về tư lập trình cho người mới",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "idChapter": 1
+},{
+  "_id": {
+    "$oid": "61626de90de38733fdb7825f"
+  },
+  "idVideo": "14",
+  "idCourse": "20211010113333",
+  "title": "[TDLT] Nhập môn tư duy thuật toán (phần 3)",
+  "url": "https://youtu.be/id3gus0sIv0",
+  "description": "Nhập môn tư duy lập trình và thuật toán, Tư duy lập trình, Tư, duy biện luận, Tư duy thuật toán, Phân tích và thiết kế các bài toán lập trình, giải quyết các bài toán lập trình, bài tập tư duy lập trình, giải thích về tư lập trình cho người mới",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "idChapter": 1
+},{
+  "_id": {
+    "$oid": "616273d10de38733fdb78267"
+  },
+  "idVideo": "15",
+  "idCourse": "20211010113901",
+  "title": "[OOP] Giới thiệu lập trình OOP với C++",
+  "url": "https://youtu.be/5bKotIbNTz0",
+  "description": "Nhập môn tư duy lập trình và thuật toán, Tư duy lập trình, Tư, duy biện luận, Tư duy thuật toán, Phân tích và thiết kế các bài toán lập trình, giải quyết các bài toán lập trình, bài tập tư duy lập trình, giải thích về tư lập trình cho người mới",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "idChapter": 1
+},{
+  "_id": {
+    "$oid": "616273d10de38733fdb78268"
+  },
+  "idVideo": "16",
+  "idCourse": "20211010113901",
+  "title": "[OOP] Các mở rộng C++ (phần 1)",
+  "url": "https://youtu.be/HUfOgiMepn4",
+  "description": "Bài 2 (phần 1): Các mở rộng trong C++ Học lập trình hướng đối tượng với C++ Hướng đối tượng với C++, Học lập trình hướng đối tượng, Toán tử nhập xuất C++ Toán tử phạm vi C++ Tham chiếu C++ Chồng hàm C++",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "idChapter": 1
+},{
+  "_id": {
+    "$oid": "616273d10de38733fdb78269"
+  },
+  "idVideo": "17",
+  "idCourse": "20211010113901",
+  "title": "[OOP] Các mở rộng C++ (phần 2)",
+  "url": "https://youtu.be/kAoPGcdjeCg",
+  "description": "Bài 2 (phần 2): Các mở rộng trong C++ Học lập trình hướng đối tượng với C++ Hướng đối tượng với C++, Học lập trình hướng đối tượng, Toán tử nhập xuất C++ Toán tử phạm vi C++ Tham chiếu C++ Chồng hàm C++",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "idChapter": 1
+},{
+  "_id": {
+    "$oid": "616273d10de38733fdb7826a"
+  },
+  "idVideo": "18",
+  "idCourse": "20211010113901",
+  "title": "[OOP] Lớp và đối tượng (phần 1)",
+  "url": "https://youtu.be/X9TBpAOp4ko",
+  "description": "Bài 3 (phần 1): Lớp và đối tượng, Học lập trình hướng đối tượng với C++, Hướng đối tượng với C++, Học lập trình hướng đối tượng, Khai báo Lớp, Định nghĩa các phương thức",
+  "createAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "updateAt": {
+    "$date": "2021-10-05T17:00:00Z"
+  },
+  "idChapter": 1
+}]

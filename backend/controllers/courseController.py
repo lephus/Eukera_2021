@@ -5,21 +5,33 @@ class CourseController:
         pass
 
     def getAllCourse():
-        dataCourse = list(connect.db.courses.find())
+        dataCourse = list(connect.db.tb_courses.find())
         myList.clear()
         for x in dataCourse:
-            dataCourseVideo = connect.db.videos.count({"idCourse" : x['idCourse']})
-            dataChapter = connect.db.chapters.count({"idCourse" : x['idCourse']})
+            author = connect.db.tb_authors.find_one({"idAuthor": x['idAuthor']})
+            nameAuthor = author['fullName']
+            dataCourseVideo = connect.db.tb_videos.count({"idCourse" : x['idCourse']})
+            dataChapter = connect.db.tb_chapters.count({"idCourse" : x['idCourse']})
+            evaluates01  = connect.db.tb_evaluates.count({"idCourse":x['idCourse'],"numberStar":"1"})
+            evaluates02  = connect.db.tb_evaluates.count({"idCourse":x['idCourse'],"numberStar":"2"})
+            evaluates03  = connect.db.tb_evaluates.count({"idCourse":x['idCourse'],"numberStar":"3"})
+            evaluates04  = connect.db.tb_evaluates.count({"idCourse":x['idCourse'],"numberStar":"4"})
+            evaluates05  = connect.db.tb_evaluates.count({"idCourse":x['idCourse'],"numberStar":"5"})
+            numberStar  = 0
+            if evaluates01+evaluates02+evaluates03+evaluates04+evaluates05 != 0:
+                numberStar   = (evaluates01 * 1 + evaluates02 * 2 + evaluates03 * 3 + evaluates04 * 4 + evaluates05 * 5) / (evaluates01+evaluates02+evaluates03+evaluates04+evaluates05)
+            
             tmp  = {
-                    "idCourse"        : x['idCourse'],
-                    "idUser"        : x['title'],
+                    "idCourse"      : x['idCourse'],
+                    "idAuthor"      : x['idAuthor'],
+                    "nameAuthor"    : nameAuthor,
                     "title"         : x['title'],
                     "viewer"        : x['viewer'],
-                    "idCategory"    : x['idCategory'],
                     "keyword"       : x['keyword'],
                     "tag"           : x['tag'],
                     "numberChapter" : dataChapter,
                     "numberVideo"   : dataCourseVideo,
+                    "numberStar"    : numberStar,
                     "description"   : x['description'],
                     "createAt"      : x['createAt'],
                     "updateAt"      : x['updateAt']
@@ -28,7 +40,18 @@ class CourseController:
         return myList
 
     def getDetailCourse(idCourse):
-        dataCourse = connect.db.courses.find_one({"idCourse": idCourse})
+        dataCourse = connect.db.tb_courses.find_one({"idCourse": idCourse})
+        evaluates01  = connect.db.tb_evaluates.count({"idCourse":idCourse,"numberStar":"1"})
+        evaluates02  = connect.db.tb_evaluates.count({"idCourse":idCourse,"numberStar":"2"})
+        evaluates03  = connect.db.tb_evaluates.count({"idCourse":idCourse,"numberStar":"3"})
+        evaluates04  = connect.db.tb_evaluates.count({"idCourse":idCourse,"numberStar":"4"})
+        evaluates05  = connect.db.tb_evaluates.count({"idCourse":idCourse,"numberStar":"5"})
+        author = connect.db.tb_authors.find_one({"idAuthor": dataCourse['idAuthor']})
+        nameAuthor = author['fullName']
+        numberStar = 0
+        if evaluates01+evaluates02+evaluates03+evaluates04+evaluates05 != 0:
+            numberStar   = (evaluates01 * 1 + evaluates02 * 2 + evaluates03 * 3 + evaluates04 * 4 + evaluates05 * 5) / (evaluates01+evaluates02+evaluates03+evaluates04+evaluates05)
+         
         dataCourseVideo = list(connect.db.videos.find({"idCourse" : idCourse}))
         dataChapter = list(connect.db.chapters.find({"idCourse" : idCourse}).sort('index'))
         lstChapter = []
@@ -60,14 +83,15 @@ class CourseController:
             lstChapter.append(chapter)
         
         tmp  = {
-            "idCourse"      : dataCourse['idCourse'],
-            "idUser"        : dataCourse['idUser'],
+            "idCourse"      : idCourse,
+            "idAuthor"      : dataCourse['idAuthor'],
+            "nameAuthor"    : nameAuthor,
             "title"         : dataCourse['title'],
             "viewer"        : dataCourse['viewer'],
-            "idCategory"    : dataCourse['idCategory'],
             "keyword"       : dataCourse['keyword'],
             "tag"           : dataCourse['tag'],
             "description"   : dataCourse['description'],
+            "numberStar"    : numberStar,
             "data"          : lstChapter,
             "createAt"      : dataCourse['createAt'],
             "updateAt"      : dataCourse['updateAt']

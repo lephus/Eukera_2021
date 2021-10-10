@@ -1,0 +1,449 @@
+[{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750c0"
+  },
+  "district": "Thành phố Hà Nội",
+  "id": 1,
+  "type": "Thành phố Trung ương"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750c1"
+  },
+  "district": "Tỉnh Hà Giang",
+  "id": 2,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750c2"
+  },
+  "district": "Tỉnh Cao Bằng",
+  "id": 4,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750c3"
+  },
+  "district": "Tỉnh Bắc Kạn",
+  "id": 6,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750c4"
+  },
+  "district": "Tỉnh Tuyên Quang",
+  "id": 8,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750c5"
+  },
+  "district": "Tỉnh Lào Cai",
+  "id": 10,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750c6"
+  },
+  "district": "Tỉnh Điện Biên",
+  "id": 11,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750c7"
+  },
+  "district": "Tỉnh Lai Châu",
+  "id": 12,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750c8"
+  },
+  "district": "Tỉnh Sơn La",
+  "id": 14,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750c9"
+  },
+  "district": "Tỉnh Yên Bái",
+  "id": 15,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750ca"
+  },
+  "district": "Tỉnh Hoà Bình",
+  "id": 17,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750cb"
+  },
+  "district": "Tỉnh Thái Nguyên",
+  "id": 19,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750cc"
+  },
+  "district": "Tỉnh Lạng Sơn",
+  "id": 20,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750cd"
+  },
+  "district": "Tỉnh Quảng Ninh",
+  "id": 22,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750ce"
+  },
+  "district": "Tỉnh Bắc Giang",
+  "id": 24,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750cf"
+  },
+  "district": "Tỉnh Phú Thọ",
+  "id": 25,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750d0"
+  },
+  "district": "Tỉnh Vĩnh Phúc",
+  "id": 26,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750d1"
+  },
+  "district": "Tỉnh Bắc Ninh",
+  "id": 27,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750d2"
+  },
+  "district": "Tỉnh Hải Dương",
+  "id": 30,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750d3"
+  },
+  "district": "Thành phố Hải Phòng",
+  "id": 31,
+  "type": "Thành phố Trung ương"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750d4"
+  },
+  "district": "Tỉnh Hưng Yên",
+  "id": 33,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750d5"
+  },
+  "district": "Tỉnh Thái Bình",
+  "id": 34,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750d6"
+  },
+  "district": "Tỉnh Hà Nam",
+  "id": 35,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750d7"
+  },
+  "district": "Tỉnh Nam Định",
+  "id": 36,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750d8"
+  },
+  "district": "Tỉnh Ninh Bình",
+  "id": 37,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750d9"
+  },
+  "district": "Tỉnh Thanh Hóa",
+  "id": 38,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750da"
+  },
+  "district": "Tỉnh Nghệ An",
+  "id": 40,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750db"
+  },
+  "district": "Tỉnh Hà Tĩnh",
+  "id": 42,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750dc"
+  },
+  "district": "Tỉnh Quảng Bình",
+  "id": 44,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750dd"
+  },
+  "district": "Tỉnh Quảng Trị",
+  "id": 45,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750de"
+  },
+  "district": "Tỉnh Thừa Thiên Huế",
+  "id": 46,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750df"
+  },
+  "district": "Thành phố Đà Nẵng",
+  "id": 48,
+  "type": "Thành phố Trung ương"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750e0"
+  },
+  "district": "Tỉnh Quảng Nam",
+  "id": 49,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750e1"
+  },
+  "district": "Tỉnh Quảng Ngãi",
+  "id": 51,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750e2"
+  },
+  "district": "Tỉnh Bình Định",
+  "id": 52,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750e3"
+  },
+  "district": "Tỉnh Phú Yên",
+  "id": 54,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750e4"
+  },
+  "district": "Tỉnh Khánh Hòa",
+  "id": 56,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750e5"
+  },
+  "district": "Tỉnh Ninh Thuận",
+  "id": 58,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750e6"
+  },
+  "district": "Tỉnh Bình Thuận",
+  "id": 60,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750e7"
+  },
+  "district": "Tỉnh Kon Tum",
+  "id": 62,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750e8"
+  },
+  "district": "Tỉnh Gia Lai",
+  "id": 64,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750e9"
+  },
+  "district": "Tỉnh Đắk Lắk",
+  "id": 66,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750ea"
+  },
+  "district": "Tỉnh Đắk Nông",
+  "id": 67,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750eb"
+  },
+  "district": "Tỉnh Lâm Đồng",
+  "id": 68,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750ec"
+  },
+  "district": "Tỉnh Bình Phước",
+  "id": 70,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750ed"
+  },
+  "district": "Tỉnh Tây Ninh",
+  "id": 72,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750ee"
+  },
+  "district": "Tỉnh Bình Dương",
+  "id": 74,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750ef"
+  },
+  "district": "Tỉnh Đồng Nai",
+  "id": 75,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750f0"
+  },
+  "district": "Tỉnh Bà Rịa - Vũng Tàu",
+  "id": 77,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750f1"
+  },
+  "district": "Thành phố Hồ Chí Minh",
+  "id": 79,
+  "type": "Thành phố Trung ương"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750f2"
+  },
+  "district": "Tỉnh Long An",
+  "id": 80,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750f3"
+  },
+  "district": "Tỉnh Tiền Giang",
+  "id": 82,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750f4"
+  },
+  "district": "Tỉnh Bến Tre",
+  "id": 83,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750f5"
+  },
+  "district": "Tỉnh Trà Vinh",
+  "id": 84,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750f6"
+  },
+  "district": "Tỉnh Vĩnh Long",
+  "id": 86,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750f7"
+  },
+  "district": "Tỉnh Đồng Tháp",
+  "id": 87,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750f8"
+  },
+  "district": "Tỉnh An Giang",
+  "id": 89,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750f9"
+  },
+  "district": "Tỉnh Kiên Giang",
+  "id": 91,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750fa"
+  },
+  "district": "Thành phố Cần Thơ",
+  "id": 92,
+  "type": "Thành phố Trung ương"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750fb"
+  },
+  "district": "Tỉnh Hậu Giang",
+  "id": 93,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750fc"
+  },
+  "district": "Tỉnh Sóc Trăng",
+  "id": 94,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750fd"
+  },
+  "district": "Tỉnh Bạc Liêu",
+  "id": 95,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750fe"
+  },
+  "district": "Tỉnh Cà Mau",
+  "id": 96,
+  "type": "Tỉnh"
+},{
+  "_id": {
+    "$oid": "611b787e9729d372bf8750ff"
+  },
+  "district": "",
+  "id": 97,
+  "type": ""
+}]
