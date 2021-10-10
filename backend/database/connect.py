@@ -3,6 +3,7 @@ from pymongo import MongoClient
 
 client = MongoClient(port=27017)
 db = client.blog_and_courses
+
 class connect:
     def __init__(self) -> None:
         pass

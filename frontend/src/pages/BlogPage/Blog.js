@@ -1,17 +1,40 @@
-import React from 'react'
-import { Col, Row } from 'react-flexbox-grid';
+import React, { useState, useEffect } from 'react'
+import { connect } from "react-redux";
+// import { Col, Row } from 'react-flexbox-grid';
+
+import { getListPostAction } from "../../redux/actions"
 
 import Footer from '../../components/Footer/Footer.js'
 import Header from "../../components/Header/Header.js"
 import PostItem from '../../components/PostItem/PostItem.js';
 import "./Blog.css";
-function Blog() {
+function Blog({ listPost, getListPostTask }) {
+
+	const [listPostState, setListPostState] = useState(listPost.data)
+
+	useEffect(() => {
+		getListPostTask();
+	}, [getListPostTask]);
+
+	useEffect(() => {
+		setListPostState(listPost?.data)
+	}, [listPost])
+
+
+	function renderListPost() {
+		return listPostState.data?.map((item, index) => {
+			return (
+				<PostItem key={index} title={item.title} viewer={item.viewer} />
+			)
+		})
+	}
+
 	return (
 		<>
 			<Header />
 			<div className="wrapper-blog">
 				<div className="container">
-					<Row>
+					{/* <Row>
 						<Col md={6}>
 							<div className="wrap-field-input">
 								<input className="form-input" placeholder="Tìm kiếm tiêu đề, tác giả, hashtag" />
@@ -20,9 +43,9 @@ function Blog() {
 								</div>
 							</div>
 						</Col>
-					</Row>
+					</Row> */}
 					<div className="list-item-blog">
-						<PostItem />
+						{renderListPost()}
 					</div>
 				</div>
 			</div>
@@ -31,4 +54,17 @@ function Blog() {
 	)
 }
 
-export default Blog
+const mapStateToProps = (state) => {
+	const { listPost } = state.apiReducer;
+	return {
+		listPost: listPost,
+	};
+};
+
+const mapDispatchToProps = (dispatch) => {
+	return {
+		getListPostTask: () => dispatch(getListPostAction()),
+	};
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(Blog);

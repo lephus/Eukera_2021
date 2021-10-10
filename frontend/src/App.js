@@ -11,11 +11,13 @@ import Register from "./pages/RegisterPage/Register";
 import BlogDetail from "./pages/BlogPage/DetailPage/BlogDetail";
 import Course from "./pages/CoursePage/Course";
 import CourseDetail from "./pages/CoursePage/DetailPage/CourseDetail"
+import Home from "./pages/HomePage/Home";
 function App() {
   return (
     <Router history={history}>
       {/* gặp route nào đúng path thì nó dừng lại route đó */}
       <Switch>
+        <Route exact path="/" component={Home} />
         <Route exact path="/blog" component={Blog} />
         <Route exact path="/blog/:titlePost" component={BlogDetail} />
         <Route exact path="/khoa-hoc" component={Course} />

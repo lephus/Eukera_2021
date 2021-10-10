@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import ReactStars from "react-rating-stars-component";
 
 import "./PostItem.css"
-function PostItem() {
+function PostItem({ title, viewer }) {
 	const configStar = {
 		size: 15,
 		count: 5,
@@ -53,7 +53,7 @@ function PostItem() {
 						<div className="item-top">
 							<Link to="/blog/hoang-long">
 								<h3 className="item-title">
-									Tiện ích hiển thị keystrokes trong Windows & MacOS
+									{title}
 								</h3>
 							</Link>
 
@@ -67,7 +67,7 @@ function PostItem() {
 						<div className="item-bottom">
 							<div className="item-viewer">
 								<i className="fa fa-eye"></i>
-								<span className="d-inline-block viewer-number">123.321</span>
+								<span className="d-inline-block viewer-number">{viewer}</span>
 							</div>
 							<div className="item-time">12-5-2021</div>
 						</div>
