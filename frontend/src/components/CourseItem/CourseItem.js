@@ -2,10 +2,11 @@ import React from 'react'
 import { Col, Row } from 'react-flexbox-grid'
 import ReactStars from 'react-rating-stars-component'
 import { Link } from 'react-router-dom'
+import { removeVietnameseTones } from '../../helpers'
 
 import "./CourseItem.css"
 
-function CourseItem() {
+function CourseItem({ title, viewer, thumbmail, nameAuthor, description, idCourse }) {
 
 	const configStar = {
 		size: 15,
@@ -28,9 +29,11 @@ function CourseItem() {
 			<div className="course-item">
 				<Row>
 					<Col md={4}>
-						<div className="course-item-image">
-							<img src="https://img-c.udemycdn.com/course/480x270/3835316_f477_5.jpg" alt="" />
-						</div>
+						<Link to={"/khoa-hoc/" + removeVietnameseTones(title) + "/" + idCourse}>
+							<div className="course-item-image">
+								<img src={thumbmail} alt={title} />
+							</div>
+						</Link>
 					</Col>
 					<Col md={8} className="course-item-info">
 						<div className="course-item-header">
@@ -41,7 +44,7 @@ function CourseItem() {
 									</Link>
 								</div>
 								<div className="course-author-name">
-									Hoàng Long
+									{nameAuthor}
 								</div>
 							</div>
 							<div className="course-item-action">
@@ -50,17 +53,17 @@ function CourseItem() {
 							</div>
 						</div>
 						<div className="course-item-top">
-							<Link to="/khoa-hoc/hoang-long">
+							<Link to={"/khoa-hoc/" + removeVietnameseTones(title) + "/" + idCourse}>
 								<h3 className="course-item-title">
-									Tiện ích hiển thị keystrokes trong Windows & MacOS
+									{title}
 								</h3>
 							</Link>
 
 							<div className="course-rating">
 								<ReactStars {...configStar} />
 							</div>
-							<div className="course-item-description">
-								Để hiển thị các keystrokes trong quá trình làm video hướng dẫn, highlight nội dung bạn có thể có thể tham khảo các tiện ích sau.
+							<div className="course-item-description multi-line-text-truncate two-line-clamp">
+								{description}
 							</div>
 						</div>
 						<div className="course-item-bottom">

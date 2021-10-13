@@ -2,11 +2,11 @@ import React, { useState } from 'react'
 import Header from '../../../components/Header/Header'
 import GroupItem from '../CourseComponent/GroupItem/GroupItem'
 import LearnItem from '../CourseComponent/LearnItem/LearnItem'
-// import VideoPlayer from 'react-video-js-player';
-import { convertLinkYoutubeToEmbed } from '../../../helpers'
-import "./CourseDetail.css"
+import ReactPlayer from 'react-player'
+// import { convertLinkYoutubeToEmbed } from '../../../helpers'
 import Comment from '../CourseComponent/TabContent/Comment/Comment'
 import Note from '../CourseComponent/TabContent/Note/Note'
+import "./CourseDetail.css"
 
 function CourseDetail() {
 
@@ -29,8 +29,6 @@ function CourseDetail() {
 	function handleClickTab(idx) {
 		setTabContent(idx);
 	}
-
-
 
 	function renderTabContent() {
 		return dataTab.map((item, index) => {
@@ -63,8 +61,15 @@ function CourseDetail() {
 				<div className="content-course-detail">
 					<div className="content-course-left">
 						<div className="wrapper-course-header">
+
 							<div className="wrapper-video">
-								<iframe src={convertLinkYoutubeToEmbed('https://www.youtube.com/watch?v=GpJJqjzCAAU')} title="khoa hoc" />
+								{/* <iframe src={convertLinkYoutubeToEmbed('https://www.youtube.com/watch?v=GpJJqjzCAAU')} title="khoa hoc" /> */}
+								<ReactPlayer
+									width='100%'
+									height='100%'
+									controls
+									url='https://www.youtube.com/watch?v=GpJJqjzCAAU'
+								/>
 							</div>
 						</div>
 						<div className="wrapper-course-main">

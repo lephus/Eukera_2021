@@ -1,1 +1,2 @@
-export * from './api.action';
+export * from './apiPost.action';
+export * from './apiCourse.action';

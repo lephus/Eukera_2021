@@ -1,6 +1,8 @@
 import { combineReducers } from "redux";
-import apiReducer from "./api.reducer";
+import apiCourseReducer from "./apiCourse.reducer";
+import apiPostReducer from "./apiPost.reducer";
 
 export default combineReducers({
-	apiReducer: apiReducer,
+	apiPostReducer: apiPostReducer,
+	apiCourseReducer: apiCourseReducer
 })

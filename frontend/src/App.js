@@ -19,9 +19,9 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/blog" component={Blog} />
-        <Route exact path="/blog/:titlePost" component={BlogDetail} />
+        <Route exact path="/blog/:titlePost/:id" component={BlogDetail} />
         <Route exact path="/khoa-hoc" component={Course} />
-        <Route exact path="/khoa-hoc/:titleCourse" component={CourseDetail} />
+        <Route exact path="/khoa-hoc/:titleCourse/:id" component={CourseDetail} />
         <Route exact path="/dang-nhap" component={Login} />
         <Route exact path="/dang-ky" component={Register} />
       </Switch>

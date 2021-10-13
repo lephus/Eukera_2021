@@ -24,7 +24,15 @@ function Blog({ listPost, getListPostTask }) {
 	function renderListPost() {
 		return listPostState.data?.map((item, index) => {
 			return (
-				<PostItem key={index} title={item.title} viewer={item.viewer} />
+				<PostItem
+					key={index}
+					title={item.title}
+					viewer={item.viewer}
+					nameAuthor={item.nameAuthor}
+					thumbmail={item.thumbmail}
+					summary={item.summary}
+					idPost={item.idPost}
+				/>
 			)
 		})
 	}
@@ -55,7 +63,7 @@ function Blog({ listPost, getListPostTask }) {
 }
 
 const mapStateToProps = (state) => {
-	const { listPost } = state.apiReducer;
+	const { listPost } = state.apiPostReducer;
 	return {
 		listPost: listPost,
 	};
