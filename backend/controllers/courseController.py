@@ -29,7 +29,7 @@ class CourseController:
                     "viewer"        : x['viewer'],
                     "keyword"       : x['keyword'],
                     "tag"           : x['tag'],
-                    "thumbmail"     : x['thumbnail'],
+                    "thumbnail"     : x['thumbnail'],
                     "numberChapter" : dataChapter,
                     "numberVideo"   : dataCourseVideo,
                     "numberStar"    : numberStar,
@@ -53,13 +53,13 @@ class CourseController:
         if evaluates01+evaluates02+evaluates03+evaluates04+evaluates05 != 0:
             numberStar   = (evaluates01 * 1 + evaluates02 * 2 + evaluates03 * 3 + evaluates04 * 4 + evaluates05 * 5) / (evaluates01+evaluates02+evaluates03+evaluates04+evaluates05)
          
-        dataCourseVideo = list(connect.db.videos.find({"idCourse" : idCourse}))
-        dataChapter = list(connect.db.chapters.find({"idCourse" : idCourse}).sort('index'))
+        dataCourseVideo = list(connect.db.tb_videos.find({"idCourse" : str(idCourse)}))
+        dataChapter = list(connect.db.tb_chapters.find({"idCourse" : str(idCourse)}))
         lstChapter = []
         for y in dataChapter:
             lst = []
             for x in dataCourseVideo:
-                if x['idChapter'] == y['idChapter']:
+                if str(x['idChapter']) == str(y['idChapter']):
                     video  = {
                         "idVideo": x['idVideo'],
                         "idChapter": x['idChapter'],
@@ -91,7 +91,7 @@ class CourseController:
             "viewer"        : dataCourse['viewer'],
             "keyword"       : dataCourse['keyword'],
             "tag"           : dataCourse['tag'],
-            "thumbmail"     : dataCourse['thumbnail'],
+            "thumbnail"     : dataCourse['thumbnail'],
             "description"   : dataCourse['description'],
             "numberStar"    : numberStar,
             "data"          : lstChapter,
