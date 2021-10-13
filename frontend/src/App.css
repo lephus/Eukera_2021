@@ -99,6 +99,26 @@ button {
   margin-right: 8px;
 }
 
+.multi-line-text-truncate {
+  overflow: hidden;
+  display: -webkit-box;
+  /* -webkit-line-clamp: 3; */
+  -webkit-box-orient: vertical;
+  /* margin: 20px auto; */
+}
+
+.one-line-clamp {
+  -webkit-line-clamp: 1;
+}
+
+.two-line-clamp {
+  -webkit-line-clamp: 2;
+}
+
+.three-line-clamp {
+  -webkit-line-clamp: 3;
+}
+
 .border-right {
   border-right: 1px solid #a5a5a5;
 }
