@@ -42,4 +42,7 @@ def courseGetAll():
 def courseGetDetail(idCourse):
     return courseView.CourseView.getDetailCourse(str(idCourse))
 
-# 
+# SUGGESTIONS
+@app.route("/api/post/suggestions/<idPost>")
+def postSuggestions(idPost):
+    return postView.PostView.suggestions(idPost)

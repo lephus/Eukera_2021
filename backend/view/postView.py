@@ -15,4 +15,8 @@ class PostView:
         if(res == None):
             return jsonify(Respont(False, "", "Not found data").serialize()), 404
         return jsonify(Respont(True, res, "Successfully").serialize()), 200
+    
+    def suggestions(idPost):
+        res = postController.PostController.Suggestions(idPost)
+        return jsonify(Respont(True, res, "Successfully").serialize()), 200
         
